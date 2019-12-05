@@ -1,18 +1,34 @@
-.wrapper {
-    text-align: center;
+html {
     box-sizing: border-box;
 }
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 0;
+}
 .site-navigation {
-    width: 1349px;
     display: inline-block;
+    width: 900px;
+    padding: 72px 0px 98px;
+    text-align: center;
 }
 .site-navigation ul {
-    padding-left: 70px;
+    padding: 0;
+    margin: 0px;
 }
 .site-navigation li {
+    text-align: center;
+    margin-right: 75px;
     list-style: none;
     display: inline-block;
-    padding: 70px 100px;
+}
+.site-navigation li:last-child {
+    margin-right: 0;
 }
 .site-navigation a {
     font-family: 'Playfair Display', serif;
@@ -23,11 +39,19 @@
     text-decoration: none;
     text-align: left;
 }
+.site-navigation a:hover {
+    color: #35baf6;
+}
+.site-navigation a:focus {
+    color: #35baf6;
+}
+.img {
+    padding-bottom: 30px;
+}
 .left-post {
-    width: 421px;
+    width: 420px;
     display: inline-block;
-    margin-left: 150px;
-    margin-right: 60px;
+    padding-bottom: 52px;
     }
 .left-post ul {
      padding: 0px;
@@ -38,10 +62,10 @@
     text-align: left;
 }
 .right-post {
-    width: 421px;
-    display: inline-block;
+    width: 420px;
     margin-left: 60px;
-    margin-right: 150px;
+    display: inline-block;
+    padding-bottom: 52px;
 }
 .right-post ul {
     padding: 0px;
@@ -56,12 +80,16 @@
     font-size: 30px;
     color: #626262;
     line-height: 36px;
+    margin: 0px;
+    padding-bottom: 36px;
 }
 .text {
     font-family: 'Playfair Display', serif;
     font-size: 14px;
     color: #626262;
     line-height: 24px;
+    /* padding-bottom: 28px; */
+    margin: 0px;
 }
 .text-under-img {
     font-family: 'Ubuntu', sans-serif;
@@ -69,26 +97,20 @@
     color: #b4ad9e;
     text-transform: uppercase;
     line-height: 17px;
-}
-.link {
-    width: 164px;
-    height: 60px;
-    display: inline-block;
-    margin: 55px;
-    border: 1px solid #626262;
-    text-align: left;
+    padding-bottom: 32px;
+    margin: 0;
 }
 .load-more {
-   
-    font-size: 20px;
-    line-height: 24px;
-    list-style: none;
-    text-decoration: none;
-}
-.link a {
-    text-decoration: none;
+    width: 164px;
+    height: 60px;
+    padding: 0;
+    margin-left: 358px;
+    text-align: center;
     font-family: 'Playfair Display', serif;
     color: #626262;
+    border: solid 1px #626262;
     font-size: 20px;
     line-height: 24px;
+    background-color: #fff;
+    cursor: pointer;
 }
