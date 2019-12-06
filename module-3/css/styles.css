@@ -88,7 +88,6 @@ html {
     font-size: 14px;
     color: #626262;
     line-height: 24px;
-    /* padding-bottom: 28px; */
     margin: 0px;
 }
 .text-under-img {
@@ -99,6 +98,9 @@ html {
     line-height: 17px;
     padding-bottom: 32px;
     margin: 0;
+}
+.link {
+    padding-bottom: 70px;
 }
 .load-more {
     width: 164px;
