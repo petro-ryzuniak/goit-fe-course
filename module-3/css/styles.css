@@ -19,7 +19,7 @@ html {
 }
 .site-navigation ul {
     padding: 0;
-    margin: 0px;
+    margin: 0;
 }
 .site-navigation li {
     text-align: center;
@@ -48,30 +48,32 @@ html {
 .img {
     padding-bottom: 30px;
 }
-.left-post {
+.article-item-left {
     width: 420px;
     display: inline-block;
     padding-bottom: 52px;
+    
     }
-.left-post ul {
+.article-item-left ul {
      padding: 0px;
-     margin: 0px;
+     margin: 0;
+     
  }
-.left-post li {
+.article-item-left li {
     list-style: none;
     text-align: left;
 }
-.right-post {
+.article-item-right {
     width: 420px;
     margin-left: 60px;
     display: inline-block;
     padding-bottom: 52px;
 }
-.right-post ul {
-    padding: 0px;
-    margin: 0px;
+.article-item-right ul {
+    padding: 0;
+    margin: 0;
 }
-.right-post li {
+.article-item-right li {
     list-style: none;
     text-align: left;
 }
@@ -99,15 +101,12 @@ html {
     padding-bottom: 32px;
     margin: 0;
 }
-.link {
-    padding-bottom: 70px;
-}
+
 .load-more {
     width: 164px;
     height: 60px;
     padding: 0;
-    margin-left: 358px;
-    text-align: center;
+    margin: 0px 0px 70px 358px;
     font-family: 'Playfair Display', serif;
     color: #626262;
     border: solid 1px #626262;
